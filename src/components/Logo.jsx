@@ -6,7 +6,7 @@ const Logo = () => {
     <>
       <div className="text-4xl ml-10 mt-6 flex gap-1">
         <FontAwesomeIcon className="mt-1" icon={faMagnifyingGlassLocation} />
-        <p>Finder</p>
+        <p>Fynderr</p>
       </div>
     </>
   );

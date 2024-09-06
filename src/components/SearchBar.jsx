@@ -20,8 +20,6 @@ const SearchBar = () => {
     fetchMovies();
   }, []);
 
-  //create handleSearch function
-
   const handleSearch = (e) => {
     const query = e.target.value;
     setQuery(query);
@@ -33,7 +31,7 @@ const SearchBar = () => {
   };
   return (
     <>
-      <div className=" flex justify-center items-center h-56">
+      <div className=" flex justify-center items-center h-56 ">
         <input
           type="text"
           placeholder="Search favorite actor..."
@@ -43,11 +41,11 @@ const SearchBar = () => {
         />
 
         <FontAwesomeIcon
-          className="mt-1 absolute right-60 text-2xl"
+          className="mt-1 absolute right-60 md:right-80 text-2xl"
           icon={faMagnifyingGlass}
         />
       </div>
-      <div className="grid grid-cols-3 gap-4 p-4">
+      <div className="grid grid-cols-3 gap-4 p-4 place-items-center">
         {filteredMovies.length > 0 ? (
           filteredMovies.map((movie, id) => (
             <Card
