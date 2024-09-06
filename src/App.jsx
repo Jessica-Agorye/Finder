@@ -1,11 +1,7 @@
-import Screen from "./components/screen";
+import Screen from "./components/Screen";
 
 function App() {
-  return (
-    <>
-      <Screen />
-    </>
-  );
+  return <></>;
 }
 
 export default App;
