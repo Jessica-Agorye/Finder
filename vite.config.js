@@ -3,9 +3,10 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  build: {
-    rollupOptions: {
-      external: ["@fortawesome/react-fontawesome"], // Exclude FontAwesome from being bundled
-    },
-  },
+default:{
+    build: {
+      rollupOptions: {
+        external: ["@fortawesome/free-solid-svg-icons"],
+      },
+    }}
 });
