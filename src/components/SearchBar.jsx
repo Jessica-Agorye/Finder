@@ -34,7 +34,7 @@ const SearchBar = () => {
       <div className=" flex justify-center items-center h-56 ">
         <input
           type="text"
-          placeholder="Search favorite actor..."
+          placeholder="Search favorite moviep..."
           value={query}
           onChange={handleSearch}
           className="relative p-2 w-80 h-10 border border-gray-500 rounded-md "
