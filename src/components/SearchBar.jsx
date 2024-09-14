@@ -37,11 +37,11 @@ const SearchBar = () => {
           placeholder="Search favorite actor..."
           value={query}
           onChange={handleSearch}
-          className="relative p-2 w-80 h-10 border border-gray-500 rounded-md"
+          className="relative p-2 w-80 h-10 border border-gray-500 rounded-md "
         />
 
         <FontAwesomeIcon
-          className="mt-1 absolute right-60 md:right-80 text-2xl"
+          className="mt-1 absolute right-60 md:right-80 lg:right-[37vw]  text-2xl"
           icon={faMagnifyingGlass}
         />
       </div>
