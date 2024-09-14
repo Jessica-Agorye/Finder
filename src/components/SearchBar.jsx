@@ -1,6 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import { useEffect } from "react";
 import { movies } from "../utilities/movieApi";
@@ -40,10 +40,10 @@ const SearchBar = () => {
           className="relative p-2 w-80 h-10 border border-gray-500 rounded-md"
         />
 
-        <FontAwesomeIcon
+        {/* <FontAwesomeIcon
           className="mt-1 absolute right-60 md:right-80 text-2xl"
           icon={faMagnifyingGlass}
-        />
+        /> */}
       </div>
       <div className="grid grid-cols-3 gap-4 p-4 place-items-center">
         {filteredMovies.length > 0 ? (
